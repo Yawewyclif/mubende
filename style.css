@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+background-color:#213638;
+}
+
+ img{
+  width: 100%;
+  position: relative;
+  height: 100%;
+  background-position: center;
+
+}
+.content{
+  position: absolute;
+  padding: 10px;
+}
+.content h1{
+  color: #e5a13e;
+}
+.explore a{
+ text-decoration: none;
+ color:#e5a13e ;
+ border: 2px #e5a13e solid;
+ padding: 5px;
+ border-radius: 5px;
+}
+
+.explore a:hover{
+  color: white;
+  background-color:#e5a13e ;
+  transition: 0.5s;
+}
+.content p{
+  color: wheat;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+.contact li   {
+  list-style: none;
+  display: inline-block;
+  border-radius: 50px;
+
+}
+.contact li a{
+  text-decoration: none;
+  color: #e5a13e;
+}
+.contact li a:hover{
+  opacity: 0.5;
+}
+.contact .fa{
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+
+
+@media  (min-width: 500px){
+
+
+  img{
+    width: 100%;
+    position: relative;
+    height: 100%;
+   
+  
+  }
+  .content{
+    position: absolute;
+    bottom: 50px;
+    background-color: #3333;
+  }
+}
+@media (min-width:650px){
+  .content h1{
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px black;
+  }
+}
+
+
+@media(min-width:1000px){
+
+  .explore a{
+    color: white;
+    background-color:#e5a13e ;
+  
+  }
+  .explore a:hover{
+    color:#e5a13e ;
+    border: 2px white solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+   }
+
+}
+
+@media(min-width:1115px){
+
+  .contact li a{
+
+    color: whitesmoke
+  }
+  .content p{
+    color: black;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-shadow: 0 2px white;
+  }
+  
+  
+}

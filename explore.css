@@ -1,0 +1,78 @@
+body{
+  text-align: center;
+  margin: 2px;
+  cursor: pointer;
+}
+
+
+.contact{
+  color: white;
+  background-color: #213638;
+  padding: 10px;
+}
+.contact li{
+list-style: none;
+}
+.welcome-content{
+  background-color: #213638;
+}
+.welcome-content h1{
+  color: #e5a13e;
+  margin: 10px;
+}
+.welcome-content p{
+  color: wheat;
+  letter-spacing: 2px;
+  line-height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+.explore-more h2{
+  color: #213638;
+}
+.explored-content img{
+  width: 100%;
+}
+.mining{
+  position: relative;
+}
+.exp-cont{
+  position: absolute;
+  bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.43);
+}
+.exp-cont h2{
+  color: wheat;
+}
+.exp-cont p{
+  color: white;
+}
+.history h1{
+  color: #e5a13e;
+  margin: 5px;
+}
+ .history p{
+ text-align: start;
+ padding: 5px;
+ margin: 5px;
+ color: #213638;
+ font-weight: bold;
+ 
+ }
+
+ .footer{
+  background-color: rgba(18, 14, 14, 0.974);
+ }
+ .footer h3 {
+  color: #e5a13e;
+ }
+ .footer p{
+  color: whitesmoke;
+ }
+@media (min-width : 750px){
+  .explored-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+  }
+}
